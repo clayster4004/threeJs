@@ -142,6 +142,11 @@ export default function Page() {
 
   // Will receive the command from the device (x-coord, z-coord)
   const processCommand = (command) => {
+    // reset the game if the command is "reset"
+    if (command === "reset") {
+      resetGame();
+      return;
+    }
     // Split the input and get the accelerometer values
     const parts = command.trim().split(',');
     const xVal = parseFloat(parts[0]);
