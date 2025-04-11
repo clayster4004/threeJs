@@ -61,7 +61,8 @@ while True:
 
     # When connected, check for button presses
     if btnA.value:  # Button A pressed
-        time.sleep(0.1)  # Debounce delay
+        uart.write(f"reset")
+        time.sleep(0.5)  # Debounce delay
 
     if btnB.value:  # Button B pressed
         # Send the x and z accelerometer values to the connected BLE
