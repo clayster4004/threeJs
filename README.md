@@ -14,7 +14,7 @@ HINT: Hold the device with the microusb facing towards the sky, and hold the 'B'
 ### Prerequisites
 * Circuit python installed and a Circuit Playground Bluefruit device
 * Node.js and npm installed
-* Chrome Browser (or another browser capable of using the Web Bluetooth API, you can see if your borwser is supported [here](https://caniuse.com/web-bluetooth).
+* Chrome Browser (or another browser capable of using the Web Bluetooth API), you can see if your borwser is supported [here](https://caniuse.com/web-bluetooth).
 
 ### To run the react app
 * Clone the repository
