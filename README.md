@@ -1,9 +1,14 @@
 # Welcome to my fun little circuit python web project!
 Thanks for coming by :)
+
 ## What is the application?
 For this application I made an extremely simple front-end react app that has a button allowing the user to connect to a Circuit Playground Bluefruit device. Once connected via bluetooth, the gyroscope values from the device are utilized to move the on-screen character. In other words, the way you tilt the device is how you move the character. Your goal is to dodge the moving blocks approaching you. 
 
 HINT: Hold the device with the microusb facing towards the sky, and hold the 'B' button when you tilt the device to send the commands. The 'A' button will reset the game.
+
+## What pervasive computing technologies is this project based on?
+* BLE (bluetooth low energy)- This project utilizes BLE for communication between the hardware on the device and the web application. This is the same idea behind how a console controller would connect to the console (via bluetooth).
+* Embedded Sensors - This project also utilizes the gyroscope data from the bluefruit to move the character in the game. Utilizing these sensors allowed me to implement something that would emulate a joystick in a sense, being able to move diagonally as opposed to just left and right (which would be possible if you were just using the buttons).
 
 ## How do I run this application?
 ### Prerequisites
