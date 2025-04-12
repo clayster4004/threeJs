@@ -25,7 +25,7 @@ HINT: Hold the device with the microusb facing towards the sky, and hold the 'B'
 
 ### To run the circuit python code on your bluefruit device
 * Open up editor of your choice
-* Run the code located at threeJs/curcuitPythonCode/code.py
+* Run the code located at threeJs/curcuitPythonCode/code.py on your bluefruit device
 
 ### Additional notes
 * The source code shows all BLE devices when you click the 'Connect' button, which may be a lot depending on your location
